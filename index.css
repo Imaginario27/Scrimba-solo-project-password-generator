@@ -1,0 +1,176 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+/* Styles */
+:root{
+   /* Colours */
+    --dyedBlack: #1C1C1C;
+    --darkBlue: #1F2937;
+    --lightBlue: #2F3E53;
+    --brightGreen: #4ADF86;
+    --inputGreen: #55F991;
+    --brightTorquise: #10B981;
+    
+    /* Fonts */
+    --titleFont: 'Karla', sans-serif;
+    --mainFont: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    background:var(--dyedBlack);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: var(--mainFont);
+}
+
+#container{
+    background:var(--darkBlue);
+    padding:115px 52px;
+    width:445px;
+}
+
+#header-title-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+#header-title-wrapper h1 {
+    font-family: var(--titleFont);
+    color: white;
+    margin:0;
+    font-size:40px;
+    font-weight:800;
+    line-height: 40px;
+}
+#header-title-wrapper span {
+    color:var(--brightGreen);
+}
+#header-title-wrapper p {
+    color:white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom:51px;
+}
+
+#generate-password-btn {
+    border-radius: 6px;
+    background: var(--brightTorquise);
+    border:none;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    padding:9px 15px;
+    transition: all 0.3s ease-in-out
+}
+#generate-password-btn:hover {
+    background: var(--brightGreen);
+    cursor: pointer;
+}
+
+hr {
+    border:1px solid var(--lightBlue);
+    margin: 35px 0px;
+}
+
+#password-settings-wrapper div {
+    display:inline;
+    margin-right:10px;
+}
+
+#password-settings-wrapper label, #password-settings-wrapper span {
+    margin-right:10px;
+    color:white;
+}
+#password-settings-wrapper input {
+    margin-right:10px;
+}
+
+#password-length {
+    width:50px;
+    border-radius: 6px;
+    background: white;
+    border:none;
+    padding:0 5px 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#password-fields-wrapper {
+    display:flex;
+    margin-top:35px;
+    justify-content: space-between;
+}
+
+.password-field{
+    width:190px;
+    height: 39px;
+    border-radius: 6px;
+    background: #273549;
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--inputGreen);
+    padding:0 10px 0 10px;
+    text-align:center;
+}
+
+#info{
+    text-align:center;
+    color:var(--brightTorquise);
+    font-style: italic;
+    font-size:13px;
+}
+
+/* The switch*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+  vertical-align: middle;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  border:1px solid white;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: var(--brightGreen);
+}
+.switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
