@@ -9,7 +9,7 @@ The Scrimba Password Generator is a simple web application built with HTML, CSS,
 - User-friendly and responsive design.
 
 ## Demo
-You can try out the Scrimba Password Generator by visiting the [demo page](https://example.com/feature-1-example](https://scrimba-password-generator-img27.netlify.app).
+You can try out the Scrimba Password Generator by visiting the ![demo page](https://example.com/feature-1-example](https://scrimba-password-generator-img27.netlify.app).
 
 ## How to Use
 1. Open the Scrimba Password Generator in your web browser.
