@@ -2,13 +2,13 @@
 
 The Scrimba Password Generator is a simple web application built with HTML, CSS, and JavaScript that allows you to generate random passwords with ease. You can customize the password length and choose whether to include symbols for added security. It's a handy tool for creating strong and unique passwords for your online accounts.
 
-##Features
+## Features
 - Generate random passwords.
 - Customize password length.
 - Include symbols for stronger passwords.
 - User-friendly and responsive design.
 
-- Demo
+## Demo
 You can try out the Scrimba Password Generator by visiting the [demo page](https://example.com/feature-1-example](https://scrimba-password-generator-img27.netlify.app).
 
 ## How to Use
@@ -23,9 +23,9 @@ Your generated password will be displayed in the text box.
 ## Screenshot
 ![Screenshot](my-image.png)
 
-##Acknowledgments
+## Acknowledgments
 This project was inspired by the need for a simple and customizable password generator.
 Special thanks to Scrimba for their educational resources.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact us at designer@imaginario27.com.
+If you have any questions or suggestions, feel free to contact me at designer@imaginario27.com.
