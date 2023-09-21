@@ -14,6 +14,7 @@ let passwordField2 = document.getElementById("password-field-2")
 let infoField = document.getElementById("info")
 let symbols = document.getElementById("symbols")
 let hasSymbol = true
+let hasGeneratedPasswords = false
 
 // Gets the random index
 function getRandomIndex(){
@@ -33,6 +34,7 @@ function generatePasswords(){
     passwordField1.value = ""
     passwordField2.value = ""
     infoField.textContent = ""
+    hasGeneratedPasswords = true
     
     for(i = 0; i < passwordLength; i++){
         if (hasSymbol){
@@ -61,7 +63,7 @@ function setPasswordLength(){
 
 // Copies the password from each field
 function copyPassword(field){
-    if (!(passwordField1.value === "Generate password")){
+    if (hasGeneratedPasswords){
         if (field === 1) {
             passwordField1.select()
             passwordField1.setSelectionRange(0, 99999) // For mobile devices
