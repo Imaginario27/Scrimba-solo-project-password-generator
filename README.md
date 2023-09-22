@@ -21,7 +21,7 @@ You can try out the Scrimba Password Generator by visiting the [app page](https:
 Your generated password will be displayed in the text box.
 
 ## Screenshot
-![Screenshot]([my-image.png](https://imaginario27.com/wp-content/uploads/2023/09/generador-de-contrasenas.jpg))
+![Screenshot](https://imaginario27.com/wp-content/uploads/2023/09/generador-de-contrasenas.jpg)
 
 ## Acknowledgments
 This project was inspired by the need for a simple and customizable password generator.
